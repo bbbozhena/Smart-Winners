@@ -1,0 +1,127 @@
+$font: "Roboto";
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: $font;
+}
+.header {
+    display: block;
+}
+.header-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+    .general-info {
+        display: flex;
+        flex-direction: row;
+    }
+    .user-info {
+        padding-left: 29px;
+        padding-top: 9px;
+        font-weight: 400;
+    }
+    .social {
+        padding-top: 9px;
+        display: block;
+        cursor: pointer;
+        .bi-facebook {
+            color: rgba(24, 119, 242, 1);
+        }
+        .bi-twitter {
+            color: rgba(29, 161, 243, 1);
+        }
+        .bi-messenger {
+            color: rgba(24, 119, 242, 1);
+        }
+        .bi-whatsapp {
+            background-color: rgba(37, 211, 102, 1);
+            border-radius: 5 0%;
+            color: white;
+        }
+        .language {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            padding-top: 10px;
+            img {
+                padding-right: 10px;
+            }
+            i {
+                padding-left: 10px;
+            }
+        }
+    }
+}
+.logout {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 5px;
+    a {
+        color: blue;
+        cursor: pointer;
+    }
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #f30000;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 30px;
+
+    .nav {
+        display: flex;
+        p {
+            padding: 7px 25px;
+            border-right: 1px solid white;
+            cursor: pointer;
+        }
+    }
+    .account {
+        background-color: #0061a3;
+        padding: 7px 38px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
+.header-banner {
+    text-align: -webkit-center;
+    img {
+        width: 100%;
+    }
+}
+.cards {
+    display: flex;
+
+    .card {
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        margin: 30px 20px;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        a {
+            padding-left: 55%;
+            font-weight: 500;
+            font-size: 14px;
+            color: #0061a3;
+            text-decoration: underline;
+        }
+        span {
+            font-weight: 500;
+            font-size: 16px;
+            padding-top: 5px;
+        }
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            color: #5f5f5f;
+        }
+    }
+}
