@@ -58,7 +58,7 @@
 
 .header-info .social .bi-whatsapp {
   background-color: #25d366;
-  border-radius: 5 0%;
+  border-radius: 50%;
   color: white;
 }
 
@@ -94,7 +94,7 @@
   cursor: pointer;
 }
 
-.menu {
+.gen-menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,19 +112,19 @@
   margin: 30px;
 }
 
-.menu .nav {
+.gen-menu .nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.menu .nav p {
+.gen-menu .nav p {
   padding: 7px 25px;
   border-right: 1px solid white;
   cursor: pointer;
 }
 
-.menu .account {
+.gen-menu .account {
   background-color: #0061a3;
   padding: 7px 38px;
   border-radius: 8px;
@@ -139,13 +139,13 @@
   width: 100%;
 }
 
-.cards {
+.cardss {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.cards .card {
+.cardss .cardd {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   margin: 30px 20px;
@@ -158,23 +158,119 @@
           justify-content: space-between;
 }
 
-.cards .card a {
-  padding-left: 55%;
+.cardss .cardd a {
+  padding-left: 50%;
   font-weight: 500;
   font-size: 14px;
   color: #0061a3;
   text-decoration: underline;
 }
 
-.cards .card span {
+.cardss .cardd span {
   font-weight: 500;
   font-size: 16px;
   padding-top: 5px;
 }
 
-.cards .card p {
+.cardss .cardd p {
   font-weight: 400;
   font-size: 14px;
   color: #5f5f5f;
+}
+
+.lottery p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 45px 0px 30px 0px;
+}
+
+.lottery-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.lottery-cards .lottery-card {
+  display: block;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.lottery-cards .lottery-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-right: 40px;
+}
+
+.lottery-cards .lottery-body .lottery-img {
+  width: 50px;
+  height: 40px;
+  border: 2px solid #e0e0e0;
+  border-radius: 100%/100%;
+  margin: 5px 25px;
+  padding: 10px 34px;
+}
+
+.lottery-cards .lottery-body .lottery-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.lottery-cards .lottery-body .lottery-body-text {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 4%;
+}
+
+.lottery-cards .lottery-body .lottery-body-text .lottery-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.lottery-cards .lottery-body .lottery-body-text span {
+  font-weight: 700;
+  font-size: 26px;
+  color: #13902a;
+}
+
+.play {
+  margin-top: 10px;
+  background-color: #0061a3;
+}
+
+.play .play-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.play .play-body button {
+  margin: 12px;
+  background: #f7d300;
+  border-radius: 8px;
+  padding: 6px 50px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+}
+
+.play .play-body .timer {
+  margin: 20px 70px 20px 50px;
+  font-weight: 500;
+  font-size: 18px;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
