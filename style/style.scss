@@ -103,7 +103,7 @@ $font: "Roboto";
     .cardd {
         border: 1px solid #e0e0e0;
         border-radius: 8px;
-        margin: 30px 20px;
+        margin: 30px 15px;
         padding: 5px;
         display: flex;
         justify-content: space-between;
@@ -136,8 +136,9 @@ $font: "Roboto";
 }
 .lottery-cards {
     display: flex;
-    
+
     justify-content: space-between;
+    margin: 0px 15px 0px 15px;
     .lottery-card {
         display: block;
         border: 1px solid #e0e0e0;
@@ -190,6 +191,7 @@ $font: "Roboto";
             font-weight: 500;
             font-size: 16px;
             color: black;
+            border-style: none;
         }
         .timer {
             margin: 20px 70px 20px 50px;
@@ -197,5 +199,86 @@ $font: "Roboto";
             font-size: 18px;
             color: white;
         }
+    }
+}
+.online-lotteries {
+    p {
+        text-align: end;
+        font-weight: 500;
+        font-size: 18px;
+        text-decoration: underline;
+        color: #0061a3;
+    }
+}
+.title-lotteries {
+    color: white;
+    background: #f30000;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    margin: 75px 0px 0px 0px;
+}
+.online-lotteries-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.online-card {
+    margin: 15px 0px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+}
+.online-card-top {
+    display: flex;
+    justify-content: space-between;
+    .card-image {
+        width: 30px;
+        height: 80px;
+        border: 2px solid #e0e0e0;
+        -moz-border-radius: 80px;
+        -webkit-border-radius: 80px;
+        border-radius: 100px;
+        padding: 2px 30px 2px 30px;
+        margin-left: 25%;
+        margin-top: 12px;
+        background-image: url("/img/card/Group.png");
+        background-repeat: no-repeat;
+        background-size: 70px 50px;
+        background-position: center;
+    }
+    .bi-star-fill {
+        margin: 10px 5px;
+        color: #f7d300;
+    }
+}
+.lottery-online-body-text {
+    text-align: center;
+    margin: 28px 39px 8px 39px;
+    span {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 8px;
+    }
+    .timer-online {
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 8px;
+        color: #0061a3;
+    }
+    button {
+        background: #f7d300;
+        border-radius: 8px;
+        padding: 10px 57px;
+        font-weight: 500;
+        font-size: 16px;
+        color: black;
+        margin: 12px 0px 12px 0px;
+        border-style: none;
+    }
+    .lottery-online-text {
+        font-weight: 500;
+        font-size: 14px;
+        margin-bottom: 8px;
     }
 }

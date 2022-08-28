@@ -148,7 +148,7 @@
 .cardss .cardd {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  margin: 30px 20px;
+  margin: 30px 15px;
   padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -192,6 +192,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0px 15px 0px 15px;
 }
 
 .lottery-cards .lottery-card {
@@ -265,6 +266,7 @@
   font-weight: 500;
   font-size: 16px;
   color: black;
+  border-style: none;
 }
 
 .play .play-body .timer {
@@ -272,5 +274,102 @@
   font-weight: 500;
   font-size: 18px;
   color: white;
+}
+
+.online-lotteries p {
+  text-align: end;
+  font-weight: 500;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #0061a3;
+}
+
+.title-lotteries {
+  color: white;
+  background: #f30000;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  margin: 75px 0px 0px 0px;
+}
+
+.online-lotteries-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.online-card {
+  margin: 15px 0px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.online-card-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.online-card-top .card-image {
+  width: 30px;
+  height: 80px;
+  border: 2px solid #e0e0e0;
+  border-radius: 100px;
+  padding: 2px 30px 2px 30px;
+  margin-left: 25%;
+  margin-top: 12px;
+  background-image: url("/img/card/Group.png");
+  background-repeat: no-repeat;
+  background-size: 70px 50px;
+  background-position: center;
+}
+
+.online-card-top .bi-star-fill {
+  margin: 10px 5px;
+  color: #f7d300;
+}
+
+.lottery-online-body-text {
+  text-align: center;
+  margin: 28px 39px 8px 39px;
+}
+
+.lottery-online-body-text span {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.lottery-online-body-text .timer-online {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 8px;
+  color: #0061a3;
+}
+
+.lottery-online-body-text button {
+  background: #f7d300;
+  border-radius: 8px;
+  padding: 10px 57px;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  margin: 12px 0px 12px 0px;
+  border-style: none;
+}
+
+.lottery-online-body-text .lottery-online-text {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 8px;
 }
 /*# sourceMappingURL=style.css.map */
