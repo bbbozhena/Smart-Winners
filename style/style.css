@@ -676,7 +676,7 @@
 .question {
   display: block;
   width: 50%;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 
 .question h1 {
@@ -821,10 +821,11 @@
   line-height: 21px;
 }
 
-.footer .footer-body .useful-links .li {
+.footer .footer-body .useful-links li {
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
+  margin-bottom: 5px;
 }
 
 .footer .footer-body .payment-methods h4 {
